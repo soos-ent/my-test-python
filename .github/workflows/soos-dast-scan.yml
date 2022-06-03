@@ -34,7 +34,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: ${{ github.repository }} # If you're going to use SARIF the project name should be on the form of `repoowner/reponame` or use the token github.repository
           scan_mode: "baseline"
-          target_url: "https://www.brokencrystals.com/"
+          target_url: "https://brokencrystals.com/"
           sarif: true # Only set to true if you want to upload the SARIF report to Github
           gpat: ${{ secrets.SOOS_GITHUB_PAT }}
 
